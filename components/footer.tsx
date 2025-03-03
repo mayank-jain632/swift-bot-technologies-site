@@ -32,11 +32,6 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/testimonials" className="text-sm text-gray-500 hover:text-primary transition-colors">
-                  Testimonials
-                </Link>
-              </li>
-              <li>
                 <Link href="/contact" className="text-sm text-gray-500 hover:text-primary transition-colors">
                   Contact
                 </Link>
@@ -46,9 +41,9 @@ export default function Footer() {
           <div className="space-y-4">
             <h3 className="text-lg font-bold text-gray-900">Contact</h3>
             <ul className="space-y-2">
-              <li className="text-sm text-gray-500">123 Tech Avenue, San Francisco, CA 94107</li>
+              
               <li className="text-sm text-gray-500">contact@swiftbottech.com</li>
-              <li className="text-sm text-gray-500">+1 (555) 123-4567</li>
+              
             </ul>
           </div>
           <div className="space-y-4">

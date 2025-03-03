@@ -102,67 +102,6 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="w-full py-12 md:py-24 lg:py-32 section-light">
-        <div className="container px-4 md:px-6">
-          <div className="flex flex-col items-center justify-center space-y-4 text-center">
-            <div className="space-y-2">
-              <div className="inline-block rounded-lg bg-primary/20 px-3 py-1 text-sm text-primary">Testimonials</div>
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-gray-900">What Our Clients Say</h2>
-              <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Hear from companies and candidates who have experienced our exceptional service
-              </p>
-            </div>
-          </div>
-          <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 md:grid-cols-3">
-            {testimonials.slice(0, 3).map((testimonial, index) => (
-              <div key={index} className="flex flex-col justify-between rounded-lg border p-6 shadow-sm bg-white">
-                <div className="space-y-4">
-                  <div className="flex space-x-1">
-                    {[...Array(5)].map((_, i) => (
-                      <svg
-                        key={i}
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        className="h-5 w-5 text-yellow-500"
-                      >
-                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
-                      </svg>
-                    ))}
-                  </div>
-                  <p className="text-gray-500">&quot;{testimonial.content}&quot;</p>
-                </div>
-                <div className="mt-6 flex items-center space-x-4">
-                  <div className="rounded-full bg-gray-100">
-                    <Image
-                      src="/placeholder.svg?height=40&width=40"
-                      alt={testimonial.name}
-                      width={40}
-                      height={40}
-                      className="rounded-full"
-                    />
-                  </div>
-                  <div>
-                    <p className="text-sm font-medium text-gray-900">{testimonial.name}</p>
-                    <p className="text-sm text-gray-500">{testimonial.position}</p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-          <div className="flex justify-center">
-            <Link href="/testimonials">
-              <Button variant="outline" className="mt-4">
-                View All Testimonials
-                <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
-            </Link>
-          </div>
-        </div>
-      </section>
-
       <section className="w-full py-12 md:py-24 lg:py-32 section-primary">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">

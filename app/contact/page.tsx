@@ -30,28 +30,14 @@ export default function ContactPage() {
                 </p>
               </div>
               <div className="space-y-4">
-                <div className="flex items-center gap-2">
-                  <Phone className="h-5 w-5 text-primary" />
-                  <p>+1 (555) 123-4567</p>
-                </div>
+                
                 <div className="flex items-center gap-2">
                   <Mail className="h-5 w-5 text-primary" />
                   <p>contact@swiftbottech.com</p>
                 </div>
-                <div className="flex items-center gap-2">
-                  <MapPin className="h-5 w-5 text-primary" />
-                  <p>123 Tech Avenue, San Francisco, CA 94107</p>
-                </div>
+                
               </div>
-              <div className="rounded-lg overflow-hidden border shadow-sm">
-                <Image
-                  src="/placeholder.svg?height=300&width=500"
-                  alt="Office Location"
-                  width={500}
-                  height={300}
-                  className="w-full"
-                />
-              </div>
+              
               <div>
                 <h3 className="text-xl font-bold mb-2">Office Hours</h3>
                 <p className="text-muted-foreground">Monday - Friday: 9:00 AM - 6:00 PM</p>

@@ -117,76 +117,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="w-full py-12 md:py-24 lg:py-32 section-light">
-        <div className="container px-4 md:px-6">
-          <div className="flex flex-col items-center justify-center space-y-4 text-center">
-            <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-gray-900">Our Team</h2>
-              <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Meet the experienced professionals behind Swift Bot Technologies
-              </p>
-            </div>
-          </div>
-          <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 md:grid-cols-2 lg:grid-cols-3">
-            {team.map((member, index) => (
-              <div
-                key={index}
-                className="flex flex-col items-center space-y-4 rounded-lg border p-6 shadow-sm bg-white"
-              >
-                <div className="rounded-full overflow-hidden">
-                  <Image
-                    src="/placeholder.svg?height=120&width=120"
-                    alt={member.name}
-                    width={120}
-                    height={120}
-                    className="rounded-full"
-                  />
-                </div>
-                <div className="text-center">
-                  <h3 className="text-xl font-bold text-gray-900">{member.name}</h3>
-                  <p className="text-primary">{member.position}</p>
-                  <p className="mt-2 text-gray-500">{member.bio}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      
     </>
   )
 }
-
-// Sample data
-const team = [
-  {
-    name: "Dinesh Kumar",
-    position: "Founder & CEO",
-    bio: "With over 15 years in tech recruitment, David founded Swift Bot Technologies to revolutionize how companies find tech talent.",
-  },
-  {
-    name: "Jennifer Lee",
-    position: "Head of Recruitment",
-    bio: "Jennifer brings 10+ years of experience in technical recruiting and has built our exceptional team of specialized recruiters.",
-  },
-  {
-    name: "Robert Chen",
-    position: "CTO",
-    bio: "Robert oversees our technological infrastructure and develops innovative tools to streamline the recruitment process.",
-  },
-  {
-    name: "Sophia Williams",
-    position: "Client Relations Director",
-    bio: "Sophia ensures our clients receive personalized service and builds lasting partnerships with companies of all sizes.",
-  },
-  {
-    name: "Marcus Johnson",
-    position: "Technical Talent Specialist",
-    bio: "Marcus specializes in identifying and recruiting top-tier developers and engineers across all technology stacks.",
-  },
-  {
-    name: "Aisha Patel",
-    position: "Executive Search Consultant",
-    bio: "Aisha leads our executive search division, connecting companies with C-level and senior technology leaders.",
-  },
-]
-
