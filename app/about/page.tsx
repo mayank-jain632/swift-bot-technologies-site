@@ -34,7 +34,7 @@ export default function AboutPage() {
             <div className="flex flex-col justify-center space-y-4">
               <h2 className="text-3xl font-bold text-gray-900">Our Story</h2>
               <p className="text-gray-500">
-                Founded in 2015, Swift Bot Technologies began with a simple mission: to bridge the gap between
+                Founded in 2024, Swift Bot Technologies began with a simple mission: to bridge the gap between
                 exceptional tech talent and companies seeking to innovate and grow. Our founders, experienced tech
                 professionals themselves, recognized the challenges both employers and job seekers faced in the rapidly
                 evolving IT landscape.
@@ -45,7 +45,7 @@ export default function AboutPage() {
                 service, technological innovation, and deep industry expertise.
               </p>
               <p className="text-gray-500">
-                Today, Swift Bot Technologies is proud to be a trusted partner to hundreds of companies, from startups
+                Today, Swift Bot Technologies is proud to be a trusted partner to numerous companies, from startups
                 to Fortune 500 corporations, helping them build the teams that drive their success.
               </p>
             </div>
@@ -159,7 +159,7 @@ export default function AboutPage() {
 // Sample data
 const team = [
   {
-    name: "David Mitchell",
+    name: "Dinesh Kumar",
     position: "Founder & CEO",
     bio: "With over 15 years in tech recruitment, David founded Swift Bot Technologies to revolutionize how companies find tech talent.",
   },

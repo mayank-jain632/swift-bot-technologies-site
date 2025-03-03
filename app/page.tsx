@@ -11,7 +11,7 @@ export default function Home() {
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
             <div className="space-y-4">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900">
-                Your Trusted Partner in IT Recruitment haaaa
+                Your Trusted Partner in IT Recruitment
               </h1>
               <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Swift Bot Technologies connects top tech talent with leading companies. Our expert recruiters understand
@@ -96,7 +96,7 @@ export default function Home() {
               <p className="text-gray-500 md:text-xl/relaxed">
                 With years of experience in the IT recruitment industry, we understand the challenges companies face
                 when looking for the right talent. Our dedicated team of recruiters works tirelessly to match the
-                perfect candidates with your organization's needs.
+                perfect candidates with your organization&apos;s needs.
               </p>
               <p className="text-gray-500 md:text-xl/relaxed">
                 We pride ourselves on our personalized approach, cutting-edge technology, and commitment to excellence
