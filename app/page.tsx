@@ -199,25 +199,3 @@ const services = [
     ),
   },
 ]
-
-const testimonials = [
-  {
-    content:
-      "Swift Bot Technologies helped us find the perfect senior developer in record time. Their understanding of our technical requirements was impressive.",
-    name: "Sarah Johnson",
-    position: "CTO, TechInnovate",
-  },
-  {
-    content:
-      "As a job seeker, I was impressed by how well Swift Bot Technologies matched me with opportunities that aligned with my career goals.",
-    name: "Michael Chen",
-    position: "Software Engineer",
-  },
-  {
-    content:
-      "Their contract staffing solutions helped us scale our development team quickly for a major project. The quality of candidates was exceptional.",
-    name: "Emily Rodriguez",
-    position: "HR Director, DataSphere",
-  },
-]
-

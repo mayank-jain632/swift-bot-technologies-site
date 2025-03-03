@@ -1,6 +1,7 @@
-import { Phone, Mail, MapPin } from "lucide-react"
+//import { Phone, Mail, MapPin } from "lucide-react"
+import { Mail } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import Image from "next/image"
+//import Image from "next/image"
 
 export default function ContactPage() {
   return (
