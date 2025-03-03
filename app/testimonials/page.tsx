@@ -37,7 +37,7 @@ export default function TestimonialsPage() {
                       </svg>
                     ))}
                   </div>
-                  <p className="text-muted-foreground">"{testimonial.content}"</p>
+                  <p className="text-muted-foreground">&quot;{testimonial.content}&quot;</p>
                 </div>
                 <div className="mt-6 flex items-center space-x-4">
                   <div className="rounded-full bg-muted">
@@ -93,11 +93,11 @@ export default function TestimonialsPage() {
                     ))}
                   </div>
                   <blockquote className="text-xl italic text-muted-foreground mb-4">
-                    "Working with Swift Bot Technologies has completely transformed our hiring process. Their team took
+                    &quot;Working with Swift Bot Technologies has completely transformed our hiring process. Their team took
                     the time to understand our company culture and technical requirements, resulting in candidates who
-                    not only had the right skills but also fit seamlessly into our team. We've reduced our time-to-hire
-                    by 40% and improved retention rates significantly. I can't recommend them highly enough for any
-                    company looking to build a strong tech team."
+                    not only had the right skills but also fit seamlessly into our team. We&apos;ve reduced our time-to-hire
+                    by 40% and improved retention rates significantly. I can&apos;t recommend them highly enough for any
+                    company looking to build a strong tech team.&quot;
                   </blockquote>
                   <div>
                     <p className="font-bold text-lg">Alexander Thompson</p>

@@ -41,7 +41,7 @@ export default function AboutPage() {
               </p>
               <p className="text-gray-500">
                 What started as a small team of dedicated recruiters has grown into a comprehensive IT recruitment
-                agency with a global reach. Throughout our journey, we've maintained our commitment to personalized
+                agency with a global reach. Throughout our journey, we&apos;ve maintained our commitment to personalized
                 service, technological innovation, and deep industry expertise.
               </p>
               <p className="text-gray-500">

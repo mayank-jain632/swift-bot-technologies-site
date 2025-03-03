@@ -137,7 +137,7 @@ export default function Home() {
                       </svg>
                     ))}
                   </div>
-                  <p className="text-gray-500">"{testimonial.content}"</p>
+                  <p className="text-gray-500">&quot;{testimonial.content}&quot;</p>
                 </div>
                 <div className="mt-6 flex items-center space-x-4">
                   <div className="rounded-full bg-gray-100">
@@ -176,7 +176,7 @@ export default function Home() {
                 Ready to Find Your Perfect Match?
               </h2>
               <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed">
-                Whether you're looking to hire top tech talent or find your dream job, we're here to help.
+                Whether you&apos;re looking to hire top tech talent or find your dream job, we&apos;re here to help.
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">

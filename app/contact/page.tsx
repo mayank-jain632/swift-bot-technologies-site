@@ -25,7 +25,7 @@ export default function ContactPage() {
               <div>
                 <h2 className="text-2xl font-bold mb-4">Get In Touch</h2>
                 <p className="text-muted-foreground">
-                  Whether you're looking to hire top tech talent or find your dream job, our team is here to help. Fill
+                  Whether you&apos;re looking to hire top tech talent or find your dream job, our team is here to help. Fill
                   out the form or use our contact details to reach out.
                 </p>
               </div>
