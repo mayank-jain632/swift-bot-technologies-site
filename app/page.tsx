@@ -22,12 +22,7 @@ export default function Home() {
                   Hire Talent
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
-                <Button
-                  variant="outline"
-                  className="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
-                >
-                  Find Jobs
-                </Button>
+                
               </div>
             </div>
             <div className="mx-auto w-full max-w-[500px] lg:max-w-none">
