@@ -18,7 +18,7 @@ export default function Header() {
       <div className="container flex h-16 items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2">
           <Image
-            src="/placeholder.svg?height=40&width=40"
+            src="/assets/Swift-Bot-Logo.png"
             alt="Swift Bot Technologies Logo"
             width={40}
             height={40}
@@ -41,7 +41,10 @@ export default function Header() {
           </Link>
         </nav>
         <div className="flex items-center gap-4">
-          <Button className="hidden md:inline-flex">Get Started</Button>
+          <Link href="/contact">
+            <Button className="hidden md:inline-flex">Get Started</Button>
+          </Link>
+          
           <Button variant="outline" size="icon" className="md:hidden" onClick={toggleMenu}>
             <span className="sr-only">Toggle menu</span>
             {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
@@ -81,7 +84,10 @@ export default function Header() {
             >
               Contact
             </Link>
-            <Button className="mt-4">Get Started</Button>
+            <Link href="/contact">
+              <Button className="mt-4">Get Started</Button>
+            </Link>
+            
           </nav>
         </div>
       )}
