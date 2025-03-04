@@ -24,7 +24,7 @@ export default function AboutPage() {
           <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
             <div className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="/assets/sb_ourStory_image.jpg"
                 alt="About Swift Bot Technologies"
                 width={600}
                 height={400}
@@ -70,6 +70,15 @@ export default function AboutPage() {
                 To connect exceptional tech talent with innovative companies, creating meaningful career opportunities
                 and enabling business growth through strategic staffing solutions.
               </p>
+              <div className="mx-auto flex items-center justify-center overflow-hidden rounded-xl object-cover object-center sm:w-full p-5">
+                <Image
+                  src="/assets/sb_mission_image.jpg"
+                  alt="Our Mission"
+                  width={400}
+                  height={400}
+                  className="rounded-xl"
+                />
+              </div>
             </div>
             <div className="rounded-lg border p-6 shadow-sm bg-white">
               <h3 className="text-2xl font-bold mb-4 text-gray-900">Our Values</h3>

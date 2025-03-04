@@ -29,9 +29,9 @@ export default function Home() {
             </div>
             <div className="mx-auto w-full max-w-[500px] lg:max-w-none">
               <Image
-                src="/placeholder.svg?height=550&width=550"
+                src="/assets/sb_home_image.jpg"
                 alt="IT Recruitment"
-                width={550}
+                width={650}
                 height={550}
                 className="mx-auto aspect-video overflow-hidden rounded-xl object-cover"
               />

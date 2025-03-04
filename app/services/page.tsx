@@ -124,12 +124,12 @@ export default function ServicesPage() {
                 </div>
               </div>
             </div>
-            <div className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full">
+            <div className="mx-auto overflow-hidden rounded-xl object-cover object-center sm:w-full">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="/assets/sb_recruitment_image.jpg"
                 alt="Technical Recruitment"
-                width={600}
-                height={400}
+                width={800}
+                height={800}
                 className="w-full rounded-xl"
               />
             </div>
