@@ -26,7 +26,7 @@ export default function Header() {
           />
           <span className="text-xl font-bold text-gray-900">Swift Bot Technologies</span>
         </Link>
-        <nav className="hidden md:flex gap-6">
+        <nav className="hidden md:flex gap-10">
           <Link href="/" className="text-sm font-medium text-gray-700 hover:text-primary transition-colors">
             Home
           </Link>
