@@ -34,7 +34,7 @@ export default function ContactPage() {
                 
                 <div className="flex items-center gap-2">
                   <Mail className="h-5 w-5 text-primary" />
-                  <p>contact@swiftbottech.com</p>
+                  <p>swiftbottechnologies@gmail.com</p>
                 </div>
                 
               </div>

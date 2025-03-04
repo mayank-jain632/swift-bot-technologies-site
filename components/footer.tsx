@@ -42,7 +42,7 @@ export default function Footer() {
             <h3 className="text-lg font-bold text-gray-900">Contact</h3>
             <ul className="space-y-2">
               
-              <li className="text-sm text-gray-500">contact@swiftbottech.com</li>
+              <li className="text-sm text-gray-500">swiftbottechnologies@gmail.com</li>
               
             </ul>
           </div>
